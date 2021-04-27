@@ -1,12 +1,12 @@
 {
-  "name": "gaugeJS",
+  "name": "gauge-js-outlined",
   "version": "1.3.7",
-  "description": "100% native and cool looking animated JavaScript/CoffeeScript gauge",
+  "description": "fork of gauge.js but with added outlines for gauge pointers",
   "main": "dist/gauge.js",
   "repository": {
     "type": "git",
-    "url": "git@github.com:bernii/gauge.js.git"
+    "url": "git@github.com:b0czek/gauge-js-outlined.git"
   },
-  "author": "bernii",
+  "author": "b0czek",
   "license": "MIT"
 }
