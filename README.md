@@ -1,5 +1,6 @@
-gauge.js
+gauge-js-outlined
 ========
+gauge.js but pointer can have an outline around it.
 
 100% native and cool looking animated JavaScript/CoffeScript gauge.
 
@@ -19,7 +20,9 @@ var opts = {
   lineWidth: 0.44, // The line thickness
   pointer: {
     length: 0.9, // Relative to gauge radius
-    strokeWidth: 0.035 // The thickness
+    strokeWidth: 0.035,// The thickness
+    outlineWidth: 1, // thickness of the outline
+    outlineColor: "#ff0000" // color of the outline
   },
   colorStart: '#6FADCF',   // Colors
   colorStop: '#8FC0DA',    // just experiment with them
